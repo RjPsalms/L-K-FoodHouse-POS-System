@@ -27,7 +27,7 @@ Hello! This is my final project for my CS50p course. I decided to make a simple 
 - Easily switch between light and dark appearance modes using a segmented button at the upper left corner of the window.
 
 ## Requirements
-- A complete list is listed in the requirements.txt 
+> A complete list is listed in the requirements.txt 
 
 - Python 3.x
 - 'customTKinter' library
@@ -55,9 +55,9 @@ Hello! This is my final project for my CS50p course. I decided to make a simple 
 - **Menu Configuration** Customize the 'menu.json' according to your needs. Ensure that the file follows the correct JSON format.
 > [!NOTE]
 > The contents of the 'menu.json' should :
-    * all be written in lower case
-    * use underscore '_' instead of space ' ' as word separators on food item names.
-    * food items are indented under the category
+* all be written in lower case
+* use underscore '_' instead of space ' ' as word separators on food item names.
+* food items are indented under the category
 
 
 
