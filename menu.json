@@ -1,0 +1,41 @@
+{
+
+    "drinks": {
+        "coke": 15.00,
+        "water": 10.00,
+        "juice": 15.00
+    },
+    "main dish": {
+        "burger": 7.50,
+        "pizza": 10.00,
+        "steak": 15.00
+    },
+    "desserts": {
+        "ice_cream": 4.00,
+        "cake": 6.50,
+        "pie": 5.00
+    },
+    "pasta": {
+        "spaghetti": 8.00,
+        "lasagna": 9.50,
+        "alfredo": 10.00,
+        "carbonara": 15.00
+    },
+    "bilao":{
+        "pancit_bihon": 120.00,
+        "pancit_canton": 100.00,
+        "pancit_lomi": 150.00
+    },
+    "milk tea":{
+        "matcha(s)":80.00,
+        "wintermelon(s)": 80.00,
+        "buko_pandan(s)": 80.00,
+        "taro(s)": 80.00,
+        "strawberry(s)": 80.00,
+        "mango(s)": 80.00,
+        "red_velvet(s)": 80.00,
+        "hazelnut(s)": 80.00,
+        "cookies&cream(s)": 80.00,
+        "blueberry(s)": 80.00
+    }
+}

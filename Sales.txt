@@ -1,0 +1,23 @@
+Date: 2024-02-27 10:04:22
+Red_velvet(s): ...... php 80.00 x 1
+Hazelnut(s): ...... php 80.00 x 1
+Cookies&cream(s): ...... php 80.00 x 1
+Blueberry(s): ...... php 80.00 x 1
+
+       Total Sales: ... php 320.00
+===================================
+ 
+Date: 2024-02-27 10:04:35
+Pancit_bihon: ...... php 120.00 x 1
+Pancit_canton: ...... php 100.00 x 1
+Pancit_lomi: ...... php 150.00 x 1
+
+       Total Sales: ... php 370.00
+===================================
+ 
+Date: 2024-02-27 10:05:03
+Juice: ...... php 15.00 x 1
+
+       Total Sales: ... php 15.00
+===================================
+ 
