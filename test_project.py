@@ -48,7 +48,9 @@ def test_cancel_payment_output(capfd):
 
 @pytest.fixture
 def menu():
-    return load_menu(filepath="menu.json")
+    menu = load_menu("menu.json")
+    return menu
+    
  
 def test_reset_selection(menu):
     main_window = customtkinter.CTk()
@@ -63,4 +65,21 @@ def test_reset_selection(menu):
     assert not first_pos.current_button
     assert not first_pos.item_data
     assert not first_pos.selected_items_textbox.get(1.0, "end").strip()
+    
+
+@pytest.fixture
+def first_pos_instance():
+    
+    return First_POS(main_window_main_window=None, menu={})
+
+def test_add_item_to_textbox(first_pos_instance):
+    
+    item_name = "test_item"
+    
+    assert item_name not in first_pos_instance.item_data
+    
+    first_pos_instance.add_item_to_textbox(item_name)
+    
+    assert first_pos_instance.item_data[item_name]['quantity'] == 1
+
 
